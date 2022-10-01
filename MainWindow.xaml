@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISRPO_Palashicheva_PR3._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="750">
+        Title="ПР 3.1 Счетчик Палашичева" Height="800" Width="750">
     <Grid Background="#FF89ADE4">
         <Button x:Name="p3" Content="+3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,244,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p3_Click"/>
         <Button x:Name="p2" Content="+2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,320,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p2_Click"/>
