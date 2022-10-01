@@ -1,0 +1,33 @@
+﻿<Window x:Class="ISRPO_Palashicheva_PR3._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISRPO_Palashicheva_PR3._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid Background="#FF89ADE4">
+        <Button x:Name="p3" Content="+3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,244,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p3_Click"/>
+        <Button x:Name="p2" Content="+2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,320,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p2_Click"/>
+        <Button x:Name="p1" Content="+1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,395,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p1_Click"/>
+        <Button x:Name="m1" Content="-1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,473,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m1_Click"/>
+        <Button x:Name="m2" Content="-2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,551,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m2_Click"/>
+        <Button x:Name="m3" Content="-3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="95,629,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m3_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="310,10,0,0" TextWrapping="Wrap" Text="Счетчик" VerticalAlignment="Top" Height="61" Width="229" FontSize="36" Foreground="White"/>
+        <TextBlock x:Name="tb1" HorizontalAlignment="Center" Margin="76,107,554,556" TextWrapping="Wrap" Text="3" Height="106" Width="162" FontSize="72" TextAlignment="Center"  VerticalAlignment="Center" Background="White"/>
+        <Button x:Name="p3_Copy" Content="+3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,244,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p3_Click"/>
+        <Button x:Name="p2_Copy" Content="+2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,320,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p2_Click"/>
+        <Button x:Name="p1_Copy" Content="+1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,395,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p1_Click"/>
+        <Button x:Name="m1_Copy" Content="-1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,473,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m1_Click"/>
+        <Button x:Name="m2_Copy" Content="-2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,551,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m2_Click"/>
+        <Button x:Name="m3_Copy" Content="-3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="311,629,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m3_Click"/>
+        <TextBlock x:Name="tb2" HorizontalAlignment="Center" Margin="292,107,338,556" TextWrapping="Wrap" Text="3" Height="106" Width="162" FontSize="72" TextAlignment="Center"  VerticalAlignment="Center" Background="White"/>
+        <Button x:Name="p3_Copy1" Content="+3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,244,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p3_Click"/>
+        <Button x:Name="p2_Copy1" Content="+2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,320,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p2_Click"/>
+        <Button x:Name="p1_Copy1" Content="+1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,395,0,0" Height="56" FontSize="36" Background="#FF2C9E50" Foreground="White" FontWeight="Bold" Click="p1_Click"/>
+        <Button x:Name="m1_Copy1" Content="-1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,473,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m1_Click"/>
+        <Button x:Name="m2_Copy1" Content="-2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,551,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m2_Click"/>
+        <Button x:Name="m3_Copy1" Content="-3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="533,629,0,0" Height="56" FontSize="36" Background="#FF9E2C2C" Foreground="White" FontWeight="Bold" Click="m3_Click"/>
+        <TextBlock x:Name="tb3" HorizontalAlignment="Center" Margin="514,107,116,556" TextWrapping="Wrap" Text="3" Height="106" Width="162" FontSize="72" TextAlignment="Center"  VerticalAlignment="Center" Background="White"/>
+    </Grid>
+</Window>
